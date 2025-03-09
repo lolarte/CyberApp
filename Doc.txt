@@ -1,0 +1,3 @@
+Configuracion de la barra y la letra de checkditor:
+static/admin_custom.css
+

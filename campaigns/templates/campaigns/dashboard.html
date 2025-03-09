@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Campaign Report Dashboard</title>
+</head>
+<body>
+    <h1>Campaign Report Dashboard</h1>
+    <table border="1">
+        <tr>
+            <th>Campaign</th>
+            <th>Action</th>
+            <th>Count</th>
+        </tr>
+        {% for stat in campaign_stats %}
+        <tr>
+            <td>{{ stat.campaign__title }}</td>
+            <td>{{ stat.action }}</td>
+            <td>{{ stat.count }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/admin/">Back to Admin</a>
+</body>
+</html>

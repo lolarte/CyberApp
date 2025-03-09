@@ -1,0 +1,12 @@
+.quill-wrapper {
+    width: 100% !important;  /* ✅ Ensures full width */
+    margin-bottom: 10px;  /* Adds spacing */
+}
+
+.quill-container {
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px;
+}

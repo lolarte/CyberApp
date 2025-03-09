@@ -1,0 +1,9 @@
+# Ignore environment files
+venv/
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+
+# Ignore compiled files
+*.log

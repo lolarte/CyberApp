@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-05 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: .\accounts\models.py:13
+msgid "Department"
+msgstr "Departamento"
+
+#: .\accounts\models.py:14
+msgid "Extension"
+msgstr "Extensión"
+
+#: .\accounts\models.py:15
+msgid "Group"
+msgstr "Grupo"
+
+#: .\campaigns\models.py:10 .\mailtemplates\admin.py:40 .\tenants\models.py:12
+#: .\tenants\models.py:14
+msgid "Name"
+msgstr "Nombre"
+
+#: .\campaigns\models.py:13
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: .\campaigns\models.py:14
+msgid "End Date"
+msgstr "Fecha fin"
+
+#: .\campaigns\models.py:15
+msgid "Number of Emails"
+msgstr "Número de correos"
+
+#: .\mailtemplates\admin.py:41 .\mailtemplates\models.py:16
+msgid "Sender"
+msgstr "Remitente"
+
+#: .\mailtemplates\models.py:15
+msgid "Template Name"
+msgstr "Nombre de la Plantilla"
+
+#: .\mailtemplates\models.py:17
+msgid "Subject"
+msgstr "Asunto"
+
+#: .\mailtemplates\models.py:18
+msgid "Body"
+msgstr "Cuerpo"
+
+#: .\tenants\models.py:15
+msgid "Email"
+msgstr "Correo"
+
+#: .\tenants\models.py:16
+msgid "Phone"
+msgstr "Teléfono"
+
+#: .\tenants\models.py:17
+msgid "Plan"
+msgstr "Plan"
+
+#: .\tenants\models.py:18
+msgid "Payment Date"
+msgstr "Fecha de Pago"

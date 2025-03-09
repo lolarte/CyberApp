@@ -1,0 +1,22 @@
+.ck-toolbar {
+    flex-wrap: wrap !important; /* Ensures tools wrap to the second row */
+    max-width: 800px !important; /* Adjust this value to force a second row */
+    display: flex !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.ck-toolbar > .ck-toolbar__items {
+    flex-wrap: wrap !important; /* Forces items to wrap into a second row */
+    justify-content: flex-start !important;
+}
+
+.ck-editor__editable {
+    color: #000 !important; /* Ensures text is black */
+    font-size: 14px !important; /* Adjust font size if needed */
+    background-color: white !important; /* Ensures a white background */
+}
+
+.ck-content {
+    color: #000 !important; /* Forces black text inside the editor */
+}
